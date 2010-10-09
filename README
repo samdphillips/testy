@@ -1,0 +1,15 @@
+testy
+=====
+
+This is a package of a couple of useful testing tools for Racket.  
+
+The first is an extension command for raco that runs every file that
+begins with "test-" in some directory that is specified on the command
+line.
+
+The second part is a simple module language that packages up a file in a
+test-suite and provides it as the name "tests".
+
+Both tools are probably too stupid for their own good, but they are
+currently serving my testing needs well.
+
