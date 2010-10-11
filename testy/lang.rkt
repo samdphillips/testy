@@ -14,8 +14,10 @@
 (define-syntax module-begin
   (syntax-parser
     #:literals (require)
-    [(_ name:str
+    [(mb name:str
         (~or (require r ...) e) ...)
+     #:with tests (datum->syntax #'mb 'tests)
+
      #'(#%module-begin
          (require r ... ...)
 
