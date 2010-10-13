@@ -22,4 +22,5 @@
           "A simple test harness tool"
           10)))
 
+(define drracket-tools (list (list "tool.rkt")))
 
